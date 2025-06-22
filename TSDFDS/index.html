@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snoodle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script>
+    function toggleMenu() {
+      document.getElementById('navbar').classList.toggle('open');
+    }
+  </script>
+</head>
+
+<body>
+    <header>
+        <div><strong>Snoodle</strong></div>
+        <nav>
+            <a href="./index.html" class="active">STRONA GŁÓWNA</a>
+            <a href="./recipes.html">PRZEPISY</a>
+            <a href="./cooking-tips.html">WSKAZÓWKI</a>
+            <a href="./about.html">O NAS</a>
+        </nav>
+        <div class="right-nav">
+            <i class="fa fa-search" aria-hidden="true" style="margin-right: 20px;"></i>
+            <button class="btn-dark">SUBSKRYBUJ I ODKRYWAJ!</button>
+        </div>
+    </header>
+
+
+  <section class="hero">
+    <h1>ODKRYJ SMAKI AZJI!</h1>
+    <p style="color: white">Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji. Krok po kroku, z łatwo
+      dostępnych składników – gotuj egzotycznie w swojej kuchni!</p>
+    <button class="btn">POZNAJ NASZE PRZEPISY</button>
+  </section>
+
+  <section class="categories">
+    <div class="categories-left">
+      <span class="badge">ODKRYWAJ</span>
+      <h2>WYBIERZ SWÓJ SMAK AZJI!</h2>
+      <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji. Krok po kroku, z łatwo
+        dostępnych składników — gotuj egzotycznie w swojej kuchni!</p>
+      <button>ZOBACZ WIĘCEJ</button>
+    </div>
+    <div class="categories-right">
+      <div class="category-item">
+        <img src="https://img.icons8.com/ios-filled/50/chili-pepper.png" alt="ostre">
+        <span>OSTRE</span>
+      </div>
+      <div class="category-item">
+        <img src="https://img.icons8.com/ios-filled/50/broccoli.png" alt="wege">
+        <span>WEGE</span>
+      </div>
+      <div class="category-item">
+        <img src="https://img.icons8.com/ios-filled/50/restaurant.png" alt="klasyczne">
+        <span>KLASYCZNE</span>
+      </div>
+      <div class="category-item">
+        <img src="https://img.icons8.com/ios-filled/50/teddy-bear.png" alt="dzieci">
+        <span>DLA DZIECI</span>
+      </div>
+      <div class="category-item">
+        <img src="https://img.icons8.com/ios-filled/50/more.png" alt="zobacz wiecej">
+        <span>ZOBACZ WIĘCEJ</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="proposed">
+    <div class="proposed-title">
+      
+      <h2>PROPONOWANE</h2>
+      <div class="proposed-items">
+        <div class="proposed-row">
+          <div class="icon-container">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </div>
+          <div class="icon-container">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img src="./images/miso-ramen-2.jpg" alt="Miso Ramen">
+        <h3>Miso Ramen</h3>
+        <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji.</p>
+        <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+      <div class="card">
+        <img src="./images/SpicyMisoRamen_Square.jpg" alt="Spicy miso Ramen vegan">
+        <h3>Spicy miso Ramen vegan</h3>
+        <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+        <div class="meta">30 MIN – POZIOM: ŚREDNI – 4 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+    </div>
+  </section>
+  <section class="continue-exploring"
+    style="background: #fdf8f2; padding: 2rem; border: 1px solid #ccc; border-radius: 20px; text-align: center; margin-top: 2rem;">
+    <span class="badge red">PRZEPISY</span>
+    <h2 style="font-size: 2.5rem; margin: 0.5rem 0;">NIE ZATRZYMUJ SIĘ,<br />ODKRYWAJ DALEJ!</h2>
+    <p style="max-width: 600px; margin: 1rem auto 2rem;">Sprawdź kolejne azjatyckie przepisy – od zup i dań głównych po
+      desery i napoje. Każdy smak to nowa kulinarna podróż!</p>
+    <div class="filter-buttons" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem;">
+      <button class="filter active">WSZYSTKO</button>
+      <button class="filter">WEGE</button>
+      <button class="filter">ŚNIADANIA</button>
+      <button class="filter">LUNCH</button>
+      <button class="filter">OBIAD</button>
+      <button class="filter">DESERY</button>
+      <button class="filter">NA SZYBKO!</button>
+    </div>
+  </section>
+  <div class="grid-cards">
+    <div class="card">
+      <img src="./images/ramenwolowy.jpg" alt="Miso Ramen">
+      <h3>Wywar wołowy z kurczakiem</h3>
+      <p>Delikatny bulion z nutą aromatycznych ziół, podany z soczystym kurczakiem i świeżymi dodatkami. Lekkie, rozgrzewające danie idealne na każdą porę dnia.</p>
+      <div class="row">
+        <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/tantanmen-ramen-01.jpg" alt="Spicy miso Ramen vegan">
+      <h3>Tantamen</h3>
+      <p>Kremowy bulion na bazie pasty sezamowej z dodatkiem mielonego mięsa, chili i szczypiorku. Syta, lekko pikantna propozycja inspirowana japońsko-chińską kuchnią.</p>
+      <div class="row">
+        <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/vegan-ramen.jpg" alt="Spicy miso Ramen vegan">
+      <h3>Wege ramen</h3>
+      <p>Lekki, czysty bulion warzywny z różnorodnymi dodatkami – od chrupiących warzyw po grzyby i makaron ramen. Zdrowa i kolorowa opcja bez mięsa</p>
+      <div class="row">
+        <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/SpicyMisoRamen_Square.jpg" alt="Spicy miso Ramen vegan">
+      <h3>Tantamen na ostro z tofu</h3>
+      <p>Roślinna wersja klasycznego tantamen – pikantny, sezamowy bulion z tofu, chili i warzywami. Wyraziste, rozgrzewające i w 100% wegańskie.</p>
+      <div class="row">
+        <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/pomidorowogrzybowy.jpg" alt="Spicy miso Ramen vegan">
+      <h3>Wywar grzybowy z tofu</h3>
+      <p>Głęboki w smaku bulion na bazie grzybów shiitake i kombu, wzbogacony tofu i warzywami. Aromatyczna, wegańska propozycja pełna umami.</p>
+      <div class="row">
+        <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/bege.jpg" alt="Spicy miso Ramen vegan">
+      <h3>Ramen grillowane warzywa</h3>
+      <p>Bogaty, roślinny bulion serwowany z sezonowymi warzywami z grilla i makaronem ramen. Świetny wybór dla fanów wyrazistych, warzywnych dań.</p>
+      <div class="row">
+        <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+        <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+      </div>
+    </div>
+  </div>
+  <section class="asia-love">
+    <div class="text-content">
+      <span class="tag">O NAS</span>
+      <h2>Z MIŁOŚCI DO AZJI</h2>
+      <p>Jesteśmy zespołem pasjonatów kuchni Azji – od Japonii, przez Tajlandię, aż po Koreę i Wietnam. Tworzymy
+        przepisy, które łączą autentyczność z prostotą. Chcemy pokazać, że egzotyczne smaki są na wyciągnięcie ręki –
+        również w Twojej kuchni.</p>
+      <a href="#" class="button">DOWIEDZ SIĘ WIĘCEJ!</a>
+    </div>
+    <div class="image-grid">
+      <img src="./images/chef.jpg" alt="Dish 1">
+      <img src="./images/wiecej chef.webp" alt="Chef cooking">
+      <img src="./images/Shuichi-ramen-chef-in-kitchen-Barnard.jpg" alt="Noodle preparation">
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <p class="newsletter-subtitle">SUBSKRYBUJ NASZ NEWSLETTER</p>
+      <h2 class="newsletter-title">
+        DOŁĄCZ DO NAS I <span class="highlight">ODKRYWAJ</span> NOWE SMAKI!
+      </h2>
+      <p class="newsletter-description">
+        Zyskaj dostęp do nowych przepisów, kulinarnych inspiracji i
+        azjatyckich smaków prosto na swoją skrzynkę. Bez spamu – tylko dobre jedzenie!
+      </p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Adres email" required />
+        <button type="submit">SUBSKRYBUJ</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-socials">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#">Strona Główna</a>
+        <span class="footer-separator">|</span>
+        <a href="#">Przepisy</a>
+        <span class="footer-separator">|</span>
+        <a href="#">Wskazówki</a>
+        <span class="footer-separator">|</span>
+        <a href="#">O Nas</a>
+      </nav>
+    </div>
+    <hr class="footer-line">
+  </footer>
+
+</body>
+
+</html>

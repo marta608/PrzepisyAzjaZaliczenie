@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snoodle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+        function handleClickBtn() {
+            window.location.href = 'tip.html';
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div><strong>Snoodle</strong></div>
+        <nav>
+            <a href="./index.html">STRONA GŁÓWNA</a>
+            <a href="./recipes.html">PRZEPISY</a>
+            <a href="./cooking-tips.html" class="active">WSKAZÓWKI</a>
+            <a href="./about.html">O NAS</a>
+        </nav>
+        <div class="right-nav">
+            <i class="fa fa-search" aria-hidden="true" style="margin-right: 20px;"></i>
+            <button class="btn-dark">SUBSKRYBUJ I ODKRYWAJ!</button>
+        </div>
+    </header>
+
+    <section class="hero about-welcome">
+        <h1>WITAJ W AZJATYCKIM NIEBIE!</h1>
+        <div class="column">
+            <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji. Krok po kroku, z
+                łatwo
+                dostępnych składników – gotuj egzotycznie w swojej kuchni!</p>
+            <button class="btn" style="width: 200px;" onclick="">POZNAJ NASZE PRZEPISY</button>
+        </div>
+
+    </section>
+
+    <section class="tools-tips-section">
+        <div class="tools-tips-container">
+            <div class="tip-box">
+                <img src="./images/ee653ed368915ce64da13b063044faea.jpg" alt="Knife Icon" class="tip-icon" />
+                <div class="tip-text">
+                    <h3 class="tip-title">NARZĘDZIA WYSOKIEJ JAKOŚCI</h3>
+                    <p class="tip-description">Zainwestuj w solidne noże, deski do krojenia i naczynia kuchenne – to
+                        podstawa udanego gotowania.</p>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <img src="./images/istockphoto-1028414096-612x612.jpg" alt="Utensils Icon" class="tip-icon" />
+                <div class="tip-text">
+                    <h3 class="tip-title">NIEZBĘDNE PRZYBORY</h3>
+                    <p class="tip-description">W Twojej kuchni nie powinno zabraknąć łopatek, szczypiec, chochli i
+                        innych praktycznych akcesoriów.</p>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <img src="./images/istockphoto-1126796002-612x612.jpg" alt="Scale Icon" class="tip-icon" />
+                <div class="tip-text">
+                    <h3 class="tip-title">DOKŁADNE ODMIERZANIE</h3>
+                    <p class="tip-description">Używaj miarek i łyżek kuchennych, aby precyzyjnie odmierzać składniki –
+                        to klucz do udanych dań.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proposed">
+        <div class="proposed-title">
+            <h2>NAJLEPSZE WSKAZÓWKI</h2>
+            <div style="display: flex; flex-direction: row;">
+                <div class="icon-container">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="./images/rame-dodatki.webp" alt="Miso Ramen">
+                <h3>Jak zacząć przygodę z kuchnią azjatycką?</h3>
+                <p>Nie musisz być mistrzem woku, żeby gotować pysznie i autentycznie. W tym artykule poznasz podstawowe
+                    składniki, techniki i sprzęt, które warto mieć w domu, by wejść w świat smaków Azji z pewnością
+                    siebie.
+
+                </p>
+                <button class="btn" style="width: 200px;" onclick="handleClickBtn()">CZYTAJ</button>
+            </div>
+            <div class="card">
+                <img src="./images/kuchnia.jpg">
+                <h3>Wok – serce azjatyckiej kuchni</h3>
+                <p>Wydaje się prosty, ale dobrze używany wok to prawdziwa maszyna do smaków! Dowiedz się, jak o niego
+                    dbać, kiedy używać wysokiej temperatury i co smażyć, by zachować chrupkość i aromat potraw.
+
+                </p>
+                <button class="btn" style="width: 200px;" onclick="handleClickBtn()">CZYTAJ</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="grid-cards">
+        <div class="card">
+            <img src="./images/krojone tofu.webp" alt="Miso Ramen">
+            <h3>5 błędów, których łatwo uniknąć w kuchni azjatyckiej</h3>
+            <p>Za dużo sosu sojowego? Niewłaściwy ryż? Poznaj najczęstsze pułapki, które mogą zepsuć smak dania – i
+                dowiedz się, jak gotować bardziej świadomie i skutecznie.</p>
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/chef.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Gotowanie w stylu „mise en place” – sekret mistrzów kuchni</h3>
+            <p>Przygotowanie to połowa sukcesu. Zobacz, dlaczego kucharze w Azji (i nie tylko) wszystko kroją, porcjują
+                i organizują zanim padnie pierwszy płomień pod patelnią.</p>
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/Ramen _ Traditional Noodle Dish From Japan _ TasteAtlas.jpg"
+                alt="Spicy miso Ramen vegan">
+            <h3>Jak dobrać olej do potraw azjatyckich?</h3>
+            <p>Sezamowy, arachidowy, a może neutralny? Wybór oleju ma ogromny wpływ na smak i strukturę potrawy. W tym
+                poradniku dowiesz się, który tłuszcz najlepiej sprawdzi się do stir-fry, a który do sałatek.
+
+            </p>
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/ramen front.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Smak umami – jak go wydobyć z potraw?</h3>
+            <p>To on sprawia, że dania są głębokie i uzależniające. Poznaj składniki bogate w umami i naucz się je
+                wykorzystywać w codziennym gotowaniu, nie tylko w ramenie czy bulionie.
+
+            </p>
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/wiecej chef.webp" alt="Spicy miso Ramen vegan">
+            <h3>Ryż doskonały – jak ugotować go idealnie za każdym razem?</h3>
+            <p>Wydaje się prosty, ale każdy, kto choć raz przesadził z wodą, wie, że ryż potrafi zaskoczyć. Poznaj
+                sprawdzone metody gotowania różnych rodzajów ryżu – od jaśminowego po kleisty – tak, by zawsze był
+                puszysty, lekki i pełen smaku.</p>
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/grzyby-mun-skad-pochodza-i-jakie-maja-wlasciwosci.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Fermentowane smaki Azji – dlaczego warto mieć je w kuchni?</h3>
+            <p>Kimchi, miso, sos rybny czy pasta z fasoli – fermentowane produkty są fundamentem azjatyckiej kuchni i
+                źródłem głębokiego smaku. Dowiedz się, jak je stosować, przechowywać i z czym łączyć, by wydobyć z nich
+                maksimum umami.
+
+            </p>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+
+    <section class="proposed" style="background-color: #dff0ff;">
+        <div class="proposed-title">
+            <h2>Proponowane przepisy</h2>
+            <div style="display: flex; flex-direction: row;">
+                <div class="icon-container">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="./images/ramenwolowy.jpg" alt="Miso Ramen">
+                <h3>Miso Ramen</h3>
+                <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji.</p>
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+            <div class="card">
+                <img src="./images/najs.jpg" alt="Spicy miso Ramen vegan">
+                <h3>Spicy miso Ramen vegan</h3>
+                <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+                <div class="meta">30 MIN – POZIOM: ŚREDNI – 4 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="grid-cards">
+        <div class="card">
+            <img src="./images/SpicyMisoRamen_Square.jpg" alt="Miso Ramen">
+            <h3>Miso Ramen</h3>
+            <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji.</p>
+            <div class="row">
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/vegan-ramen.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Spicy miso Ramen vegan</h3>
+            <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+            <div class="row">
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/najs.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Spicy miso Ramen vegan</h3>
+            <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+            <div class="row">
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/pomidorowogrzybowy.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Spicy miso Ramen vegan</h3>
+            <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+            <div class="row">
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/tantanmen-ramen-01.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Spicy miso Ramen vegan</h3>
+            <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+            <div class="row">
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/miso-ramen-2.jpg" alt="Spicy miso Ramen vegan">
+            <h3>Spicy miso Ramen vegan</h3>
+            <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+            <div class="row">
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="categories">
+
+        <div class="categories-left">
+            <span class="badge">ODKRYWAJ</span>
+            <h2>WYBIERZ SWÓJ SMAK AZJI!</h2>
+            <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji. Krok po kroku, z
+                łatwo
+                dostępnych składników — gotuj egzotycznie w swojej kuchni!</p>
+            <button>ZOBACZ WIĘCEJ</button>
+        </div>
+        <div class="categories-right">
+            <div class="category-item">
+                <img src="https://img.icons8.com/ios-filled/50/chili-pepper.png" alt="ostre">
+                <span>OSTRE</span>
+            </div>
+            <div class="category-item">
+                <img src="https://img.icons8.com/ios-filled/50/broccoli.png" alt="wege">
+                <span>WEGE</span>
+            </div>
+            <div class="category-item">
+                <img src="https://img.icons8.com/ios-filled/50/restaurant.png" alt="klasyczne">
+                <span>KLASYCZNE</span>
+            </div>
+            <div class="category-item">
+                <img src="https://img.icons8.com/ios-filled/50/teddy-bear.png" alt="dzieci">
+                <span>DLA DZIECI</span>
+            </div>
+            <div class="category-item">
+                <img src="https://img.icons8.com/ios-filled/50/more.png" alt="zobacz wiecej">
+                <span>ZOBACZ WIĘCEJ</span>
+            </div>
+        </div>
+    </section>
+    <section class="tips-section">
+        <h1>TIPS & TRICKS</h1>
+        <div class="grid-cards">
+
+            <div class="card">
+                <img src="./images/light-bulb-1873540_640.webp" alt="Miso Ramen">
+                <h3>Gotuj ryż w proporcji 1:1,5 i nie mieszaj podczas gotowania.</h3>
+                <p></p>
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/light-bulb-1873540_640.webp" alt="Spicy miso Ramen vegan">
+                <h3>Warzywa smaż na dużym ogniu krótko, by były chrupiące.</h3>
+                <p></p>
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/light-bulb-1873540_640.webp" alt="Spicy miso Ramen vegan">
+                <h3>Zioła przechowuj w wilgotnym ręczniku w lodówce, by dłużej zachowały świeżość.</h3>
+
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/light-bulb-1873540_640.webp" alt="Spicy miso Ramen vegan">
+                <h3>Ciemny sos sojowy dodawaj na końcu – ma intensywny smak i kolor.</h3>
+                <p></p>
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/light-bulb-1873540_640.webp" alt="Spicy miso Ramen vegan">
+                <h3>Zamiast soli użyj pasty miso, sosu rybnego lub ostrygowego dla głębi smaku.</h3>
+                <p></p>
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/light-bulb-1873540_640.webp" alt="Spicy miso Ramen vegan">
+                <h3>Olej sezamowy dodawaj dopiero po zdjęciu dania z ognia – zachowa swój aromat.
+
+                </h3>
+                <p></p>
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <p class="newsletter-subtitle">SUBSKRYBUJ NASZ NEWSLETTER</p>
+            <h2 class="newsletter-title">
+                DOŁĄCZ DO NAS I <span class="highlight">ODKRYWAJ</span> NOWE SMAKI!
+            </h2>
+            <p class="newsletter-description">
+                Zyskaj dostęp do nowych przepisów, kulinarnych inspiracji i
+                azjatyckich smaków prosto na swoją skrzynkę. Bez spamu – tylko dobre jedzenie!
+            </p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Adres email" required />
+                <button type="submit">SUBSKRYBUJ</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-socials">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="#">Strona Główna</a>
+                <span class="footer-separator">|</span>
+                <a href="#">Przepisy</a>
+                <span class="footer-separator">|</span>
+                <a href="#">Wskazówki</a>
+                <span class="footer-separator">|</span>
+                <a href="#">O Nas</a>
+            </nav>
+        </div>
+        <hr class="footer-line">
+    </footer>
+
+</body>
+
+</html>
