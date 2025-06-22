@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snoodle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <div><strong>Snoodle</strong></div>
+        <nav>
+            <a href="./index.html">STRONA GŁÓWNA</a>
+            <a href="./recipes.html">PRZEPISY</a>
+            <a href="./cooking-tips.html">WSKAZÓWKI</a>
+            <a href="./about.html" class="active">O NAS</a>
+        </nav>
+        <div class="right-nav">
+            <i class="fa fa-search" aria-hidden="true" style="margin-right: 20px;"></i>
+            <button class="btn-dark">SUBSKRYBUJ I ODKRYWAJ!</button>
+        </div>
+    </header>
+
+    <section class="hero about-welcome">
+        <h1>WITAMY W AZJATYCKIM NIEBIE!</h1>
+        <div class="column">
+            <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji. Krok po kroku, z
+                łatwo
+                dostępnych składników – gotuj egzotycznie w swojej kuchni!</p>
+            <button class="btn" style="width: 200px;">POZNAJ NASZE PRZEPISY</button>
+        </div>
+
+    </section>
+
+    <div class="about-container">
+        <div class="about-top-section">
+            <div class="about-image">
+                <img src="./images/koreanki chef.png" alt="Chef portrait" />
+
+                <div class="about-follow-section">
+                    <button style="width: 100%; display: flex; justify-content: space-around;">ZAOBSERWUJ
+                        <div>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="about-text-content">
+                <h1>OD SMAKÓW AZJI DO TWOJEJ KUCHNI</h1>
+                <p>
+                    Moja kulinarna podróż rozpoczęła się od fascynacji bogactwem smaków i aromatów Azji – kontynentu, gdzie jedzenie to coś więcej niż tylko posiłek – to rytuał, tradycja i sposób wyrażania emocji. Od tętniących życiem ulic Bangkoku, przez domowe kuchnie w Hanoi, aż po herbaciane ceremonie w Kioto – każdy zakątek Azji kryje w sobie historie, które opowiadają przez jedzenie.
+                </p>
+                <p>
+                    Z czasem pasja do azjatyckiej kuchni przerodziła się w misję – chcę dzielić się tymi smakami z innymi, pokazując, że nawet w domowych warunkach można odkrywać autentyczne i zachwycające potrawy z całej Azji. Na mojej stronie znajdziesz sprawdzone przepisy, praktyczne porady i inspiracje, które pomogą Ci odkryć nowe kulinarne horyzonty.
+                </p>
+                <p>
+                    Niezależnie od tego, czy dopiero zaczynasz swoją przygodę z kuchnią azjatycką, czy szukasz nowych pomysłów, cieszę się, że tu jesteś. Gotujmy razem, odkrywając świat pełen smaku, aromatu i pasji.
+                </p>
+                <p class="about-signature">Z serdecznymi pozdrowieniami,<br />Nihon Asian</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-gallery-section">
+        <img src="./images/chef.jpg" alt="Gallery 1" />
+        <img src="./images/japonski bbar.jpg" alt="Gallery 2" />
+        <img src="./images/fency.jpg" alt="Gallery 3" />
+        <img src="./images/krojone tofu.avif" alt="Gallery 4" />
+        <img src="./images/kuchnia.jpg" alt="Gallery 5" />
+        <img src="./images/wiecej chef.webp" alt="Gallery 6" />
+        <img src="./images/ramenwolowy.jpg" alt="Gallery 7" />
+        <img src="./images/Ramen Toppings 101.jpg" alt="Gallery 8" />
+    </div>
+    </div>
+
+    <section class="proposed">
+        <div class="proposed-title">
+            <h2>PROPONOWANE</h2>
+            <div style="display: flex; flex-direction: row;">
+                <div class="icon-container">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="./images/SpicyMisoRamen_Square.jpg" alt="Miso Ramen">
+                <h3>Miso Ramen</h3>
+                <p>Poznaj autentyczne dania z Chin, Japonii, Tajlandii, Korei i wielu innych zakątków Azji.</p>
+                <div class="meta">40 MIN – POZIOM: ŁATWY – 3 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+            <div class="card">
+                <img src="./images/najs.jpg" alt="Spicy miso Ramen vegan">
+                <h3>Spicy miso Ramen vegan</h3>
+                <p>Wegańska wersja pikantnego miso ramen! Głęboki, umami bulion z ostrej pasty miso...</p>
+                <div class="meta">30 MIN – POZIOM: ŚREDNI – 4 PORCJE</div>
+                <button class="btn" onclick="onClickBtn()">ZOBACZ PRZEPIS</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <p class="newsletter-subtitle">SUBSKRYBUJ NASZ NEWSLETTER</p>
+            <h2 class="newsletter-title">
+                DOŁĄCZ DO NAS I <span class="highlight">ODKRYWAJ</span> NOWE SMAKI!
+            </h2>
+            <p class="newsletter-description">
+                Zyskaj dostęp do nowych przepisów, kulinarnych inspiracji i
+                azjatyckich smaków prosto na swoją skrzynkę. Bez spamu – tylko dobre jedzenie!
+            </p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Adres email" required />
+                <button type="submit">SUBSKRYBUJ</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-socials">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="#">Strona Główna</a>
+                <span class="footer-separator">|</span>
+                <a href="#">Przepisy</a>
+                <span class="footer-separator">|</span>
+                <a href="#">Wskazówki</a>
+                <span class="footer-separator">|</span>
+                <a href="#">O Nas</a>
+            </nav>
+        </div>
+        <hr class="footer-line">
+    </footer>
+
+</body>
+
+</html>
